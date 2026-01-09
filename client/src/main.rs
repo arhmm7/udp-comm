@@ -14,7 +14,7 @@ fn main() {
 
     let (mut rl, thread) = raylib::init()
         .size(SCREEN_WIDTH, SCREEN_HEIGHT)
-        .title("UDP Game Client")
+        .title("UDP Client")
         .vsync()
         .build();
 
